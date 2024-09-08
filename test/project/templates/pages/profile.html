@@ -1,0 +1,8 @@
+{% extends 'base.html'%} ;
+{% load static %};
+
+{% block content %}
+<h1>hello from profile</h1>
+<img src="{% static "pics/1.jpeg" %}" alt="this is my photo"  width="300" height="420" style="border-radius: 50%; overflow: hidden;">
+<h5>name = {{name}}</h5>
+{% endblock content%}
